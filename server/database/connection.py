@@ -9,8 +9,6 @@ def get_engine(drivername:str,
     
     url = get_connection_url(drivername, host, user, password, port, database)
 
-    print(f'{url=}')
-
     engine = create_engine(url)
 
     return engine

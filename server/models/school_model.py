@@ -22,3 +22,5 @@ class School(Base):
     # Relations
     career = relationship('Career', back_populates='career')
     course = relationship('Course', back_populates='course')
+    coordination_staff = relationship('CoordinationStaff', back_populates='coordination_staff')
+    

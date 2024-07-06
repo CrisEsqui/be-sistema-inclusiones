@@ -3,6 +3,7 @@ from .base_model import Base
 # Tables
 from .campus_model import Campus
 from .career_model import Career
+from .coordination_staff import CoordinationStaff
 from .course_model import Course
 from .group_model import Group
 from .inclusion_request_model import InclusionRequest

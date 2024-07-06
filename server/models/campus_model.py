@@ -25,3 +25,4 @@ class Campus(Base):
     
     # Relationships
     group = relationship('Group', back_populates='group')
+    coordination_staff = relationship('CoordinationStaff', back_populates='coordination_staff')
